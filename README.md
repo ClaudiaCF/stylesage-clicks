@@ -1,29 +1,24 @@
-# stylesage-clicks
+# stylesage-gifs
+
+## Project structure
+* ```/views``` Contains a home view and three different views with the three different steps of the task.
+* ```/components/CatInfo.vue``` Contains the main component extracted in order to be reused in all the views.
 
 ## Project setup
+
+In order to run the project locally first you have to install the dependencies:
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+then you can run it by running the command:
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+and in case you want the build you just have to run:
 ```
 npm run build
 ```
 
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+You can also check the project deployed in [Netlify](https://zen-mcclintock-e7a4f3.netlify.app/)
